@@ -1,0 +1,19 @@
+<h1>Saved details</h1>
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Job</th>
+        <th>Birthday</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let d of deets">
+            <td>{{d.name}}</td>
+            <td>{{d.address}}</td>
+            <td>{{d.phone}}</td>
+            <td>{{d.job}}</td>
+            <td>{{d.birthday}}</td>
+        </tr>
+    </tbody>
+</table>

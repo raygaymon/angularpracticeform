@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>Enter Your details</h1>
+    <form [formGroup]="form">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" formControlName="name" name="name" class="form-control" [(ngModel)]="name">
+        </div>
+        <br>
+        <div>
+            <label for="address">Address: </label>
+            <input type="text" formControlName="address" name="address" class="form-control">
+        </div><br>
+        <div>
+            <label for="phone">Phone: </label>
+            <input type="number" formControlName="phone" name="phone" class="form-control">
+        </div><br>
+        <div>
+            <label for="job">Job: </label>
+            <input type="text" formControlName="job" name="job" class="form-control">
+        </div><br>
+        <div>
+            <label for="birthday">Date Of Birth: </label>
+            <input type="date" formControlName="birthday" name="birthday" class="form-control" [(ngModel)]="birthday">
+        </div><br>
+        <button type="submit" (click)="createEntry()">Submit
+            
+        </button>
+        <div>
+            <p>Inputted name: {{name}} born on {{birthday}}</p>
+        </div>
+    </form>
+</div>

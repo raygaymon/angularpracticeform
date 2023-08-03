@@ -1,0 +1,36 @@
+{
+  "Details": [
+    {
+      "id": 1,
+      "name": "ass",
+      "address": "your asshole",
+      "phone": 83395499,
+      "job": "idiot",
+      "birthday": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "address": "",
+      "phone": 0,
+      "job": "",
+      "birthday": null
+    },
+    {
+      "id": 3,
+      "name": "",
+      "address": "",
+      "phone": 0,
+      "job": "",
+      "birthday": null
+    },
+    {
+      "name": "Rayson Lim",
+      "address": "Block 361",
+      "phone": 83395499,
+      "job": "blowjobbist",
+      "birthday": "2023-08-25",
+      "id": 4
+    }
+  ]
+}
